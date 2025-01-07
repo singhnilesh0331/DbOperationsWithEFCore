@@ -2,6 +2,29 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+
+# User-Specific Files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-Specific Files
+*.userprefs
+
+# Build Results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease
+[Rr]eleases
+x64/
+x86/
+Build/
+build/
+bd/
+[Bb]in/
+[Oo]bj/
+
 /DbOperationsWithEFCore/bin/Debug/net6.0
 /DbOperationsWithEFCore/obj
 /DbOperationsWithEFCore/bin/Debug/net6.0
@@ -13,15 +36,5 @@
 /DbOperationsWithEFCore/Release/net6.0
 /DbOperationsWithEFCore/bin/Release/net6.0
 /DbOperationsWithEFCore/bin/Release/net6.0
-/VAA.PnF.Integration.TradeShift/Properties/PublishProfiles
-/VAA.PnF.Integration.TradeShift/Properties/ServiceDependencies/avadeunfn112 - Zip Deploy
-/VAA.PnF.Integration.TradeShift/Properties/ServiceDependencies/avadeunfn112 - Web Deploy
-/VAA.PnF.Integration.TradeShift/Properties/serviceDependencies.avadeunfn112 - Zip Deploy.json
-/VAA.PnF.Integration.TradeShift/Properties/ServiceDependencies/avadeunfn112 - Zip Deploy1
-/VAA.PnF.Integration.TradeShift/Properties/serviceDependencies.avadeunfn112 - Zip Deploy1.json
-/VAA.PnF.Integration.TradeShift/Properties/serviceDependencies.json
-/VAA.PnF.Integration.TradeShift/Properties
 /DbOperationsWithEFCore/bin
 /DbOperationsWithEFCore/obj
-/.gitignore
-/.gitignore
