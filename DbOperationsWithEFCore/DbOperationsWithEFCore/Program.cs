@@ -1,5 +1,6 @@
 
 using DbOperationsWithEFCore.Data;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
 namespace DbOperationsWithEFCore
@@ -14,7 +15,7 @@ namespace DbOperationsWithEFCore
                 options.UseSqlServer(
                     builder.Configuration.GetConnectionString("AppDb")));
             // Add services to the container.
-
+            builder.Services.AddValidatorsFromAssemblyContaining<ProductValidator>();
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
